@@ -1,0 +1,11 @@
+# Codelab
+index
+node_modules
+temp
+
+# macOS
+.DS_Store
+
+# tooling
+claat
+claat-linux
