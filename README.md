@@ -17,14 +17,14 @@ You can install the claat tool locally using Go. But then you have to install Go
 
 1. Clone this repository
 2. Install Node if you don't have it already
-3. Run `npm install` to install the dependencies
-4. Run `npm run serve` to start the local server
+3. Run `pnpm install` to install the dependencies
+4. Run `pnpm docs:serve` to start the local server
 5. Open `http://127.0.0.1:8080` in your browser to see the rendered codelab
 6. Profit
 
 ## How do I edit the codelab?
 
-1. Run `npm run serve` to start the local server
+1. Run `pnpm docs:serve` to start the local server
 2. Edit the `index.md` file
 3. Refresh your browser after making changes
 
@@ -37,4 +37,3 @@ You can use any hosting platform. I recommend netlify.com. It's free and easy to
 If you want to see an example project, you can check out the frontend onboarding project.
 
 [Github](https://github.com/appwise-labs/onboarding-frontend)
-[Live demo](https://wisemen-onboarding-frontend.netlify.app/#0)
